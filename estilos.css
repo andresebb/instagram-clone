@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 77px;
+    align-items: center;
+    border-bottom: 1px solid #c1c1c1;
+    border-top: 1px solid #c1c1c1;
+}
+
+.logo-header{
+    border-right: 1px solid #c1c1c1;
+    padding-right: 10px;
+}
+
+.text-header{
+    padding-top: 4px;
+    padding-left: 10px;
+}
