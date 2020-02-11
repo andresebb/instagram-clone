@@ -39,5 +39,11 @@ header input{
     background: #fafafa;
     width: 200px;
     height: 12px;
-
+    -ms-input-placeholder { color: red; };
+    color: red;
 }
+
+::-webkit-input-placeholder { /*Colocarlo color al texto del placeholder*/
+    color: #999999;
+}
+
