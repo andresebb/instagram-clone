@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    font-family: Arial;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    height: 77px;
+    align-items: center;
+    border-bottom: 1px solid #c1c1c1;
+    border-top: 1px solid #c1c1c1;
+}
+
+.logo-header{
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+
+.text-header{
+    padding-top: 4px;
+    padding-left: 10px;
+}
+
+
+header ul{
+    list-style: none;
+    display: flex;
+}
+
+header li {
+    margin: 15px;
+}
+
+header input{
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    background: #fafafa;
+    width: 200px;
+    height: 12px;
+    -ms-input-placeholder { color: red; };
+    color: red;
+}
+
+::-webkit-input-placeholder { /*Colocarlo color al texto del placeholder*/
+    color: #999999;
+}
+
