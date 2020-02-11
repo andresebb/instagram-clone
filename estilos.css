@@ -1,14 +1,17 @@
 body{
     margin: 0;
     font-family: Arial;
+    background: #fafafa;
 }
+
 header{
     display: flex;
     justify-content: space-evenly;
     height: 77px;
     align-items: center;
-    border-bottom: 1px solid #c1c1c1;
-    border-top: 1px solid #c1c1c1;
+    border-bottom: 1px solid #dbdbdb;
+    border-top: 1px solid #dbdbdb;
+    background: white;
 }
 
 .logo-header{
@@ -47,3 +50,74 @@ header input{
     color: #999999;
 }
 
+.hero{
+    display: flex;
+    justify-content: center;
+    margin: 0 187px 0 187px;
+    padding: 60px 20px 0 20px;;
+    background: #fafafa;;
+    word-wrap: break-word; /*Evitar que el texto se salga del margen*/
+}
+
+.hero-left figure img{
+    border-radius: 100px; 
+    word-wrap: break-word;
+}
+.hero-top{
+    display: flex;
+    font-size: 28px;
+    color: #545454;
+    align-items: center;
+    height: 40px;
+}
+
+.hero-top button{
+    height: 30px;
+    width: 94px;
+    font-size: 14px;
+    border-radius: 5px;
+    background: #fafafa;
+    border: 1px solid #dbdbdb;
+}
+
+.hero-top button{
+    margin-left: 20px;
+}
+
+.hero-top img{
+    margin-left: 5px;
+}
+
+.hero ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.hero li{
+    margin-right: 40px;
+}
+
+.hero-descripcion h1 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.hero-descripcion p {
+    margin-top: 5px;
+}
+
+.historias{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.historias img{
+    border-radius: 50%;
+    
+}
+
+.historias figure{
+    text-align: center;
+}
