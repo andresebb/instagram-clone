@@ -114,6 +114,7 @@ header input{
     width: 920px;
     margin: 0 auto;
     border-bottom: 1px solid #dbdbdb;
+    cursor: pointer;
 }
 
 .historias img{
@@ -142,7 +143,69 @@ header input{
     font-size: 12px;
 }
 
-.historias-down li .primero{
+.historias-down li .negra{
+    color: black; 
     border-top: 1px solid black;
+    padding-top: 18px;
+}
+
+.historias-down li a:hover{
+    color:black;
+    border-top: 1px solid black;
+    padding-top: 18px;
+}
+
+.post{
+    cursor: pointer;
+    position: relative;
+    display: block;
+}
+
+.post-list{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 293px));
+    justify-content: center;
+    grid-gap:28px;
+}
+
+.post-image{
+    margin: 0;
+}
+
+.post-image img{
+    width: 100%;
+    vertical-align: top; /*Esto es para quitarles un margen que les sale a todas las img cuando no se les pone margen*/
+}
+
+.post-overlay{
+    background: rgba(0,0,0, .4);
+    position: absolute;
+    left:0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.post:hover .post-overlay { /* Cuando el cursor este sobre .post aparecera el .postoverlay*/
+    display: flex;
+}
+
+.post-likes, .post-comments{
+    width: 80px;
+    margin: 5px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}
+
+@media screen and (max-width:768px){
+    .post-list{
+        grid-gap:3px;
+    }
 }
 
