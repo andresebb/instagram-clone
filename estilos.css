@@ -111,13 +111,38 @@ header input{
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    width: 920px;
+    margin: 0 auto;
+    border-bottom: 1px solid #dbdbdb;
 }
 
 .historias img{
     border-radius: 50%;
-    
+
 }
 
 .historias figure{
     text-align: center;
 }
+
+.historias-down ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.historias-down li{
+    margin-right: 50px;;
+}
+
+.historias-down li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #a2a2a2;
+    font-size: 12px;
+}
+
+.historias-down li .primero{
+    border-top: 1px solid black;
+}
+
